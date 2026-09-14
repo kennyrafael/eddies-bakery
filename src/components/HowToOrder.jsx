@@ -50,7 +50,7 @@ export default function HowToOrder() {
               <div aria-hidden="true" className={`absolute -top-10 h-32 w-32 rounded-full blur-3xl ${card.glow}`} />
               <h3 className="relative font-display text-xl text-steel-light">{card.title}</h3>
               <p className="relative mt-3 text-sm leading-relaxed text-steel">{card.description}</p>
-              <OrderButton channel={card.id} variant={card.id === 'whatsapp' ? 'solid' : 'outline'} size="lg" className="relative mt-6" />
+              <OrderButton channel={card.id} variant={'outline'} size="lg" className="relative mt-6" />
             </div>
           ))}
         </div>
