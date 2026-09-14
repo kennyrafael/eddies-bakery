@@ -4,7 +4,7 @@
 // ============================================================
 
 // TODO: trocar pelo número real, formato internacional sem espaços/símbolos
-export const WHATSAPP_NUMBER = '5511999999999'
+export const WHATSAPP_NUMBER = '5543991263489'
 export const WHATSAPP_MESSAGE = 'Olá! Vim pelo site e quero fazer um pedido 🔥🍪'
 export const whatsappLink = (message = WHATSAPP_MESSAGE) =>
   `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`
@@ -13,8 +13,8 @@ export const whatsappLink = (message = WHATSAPP_MESSAGE) =>
 export const IFOOD_URL = 'https://www.ifood.com.br/delivery/sua-cidade/eddies-bakery'
 
 // TODO: trocar pelo @ real do Instagram
-export const INSTAGRAM_HANDLE = '@eddiesbakery'
-export const INSTAGRAM_URL = 'https://instagram.com/eddiesbakery'
+export const INSTAGRAM_HANDLE = '@eddies.bakery'
+export const INSTAGRAM_URL = 'https://instagram.com/eddies.bakery'
 
 export const products = [
   {
