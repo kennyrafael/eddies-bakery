@@ -9,6 +9,9 @@ export const WHATSAPP_MESSAGE = 'Olá! Vim pelo site e quero fazer um pedido �
 export const whatsappLink = (message = WHATSAPP_MESSAGE) =>
   `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`
 
+// TODO: trocar pelo link real da loja no iFood
+export const IFOOD_URL = 'https://www.ifood.com.br/delivery/sua-cidade/eddies-bakery'
+
 // TODO: trocar pelo @ real do Instagram
 export const INSTAGRAM_HANDLE = '@eddiesbakery'
 export const INSTAGRAM_URL = 'https://instagram.com/eddiesbakery'
@@ -87,8 +90,8 @@ export const howToOrderSteps = [
   },
   {
     step: '02',
-    title: 'Chame no WhatsApp',
-    description: 'Clique em qualquer botão de pedido e cai direto na nossa conversa, sem cadastro.',
+    title: 'Escolha o canal',
+    description: 'WhatsApp para atendimento direto, ou iFood se preferir pedir e pagar pelo app.',
   },
   {
     step: '03',

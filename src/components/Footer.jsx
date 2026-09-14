@@ -1,5 +1,5 @@
 import logo from '../assets/logo.png'
-import { INSTAGRAM_HANDLE, INSTAGRAM_URL, whatsappLink } from '../data/content'
+import { INSTAGRAM_HANDLE, INSTAGRAM_URL, IFOOD_URL, whatsappLink } from '../data/content'
 
 export default function Footer() {
   return (
@@ -16,6 +16,14 @@ export default function Footer() {
               className="text-sm font-semibold text-steel transition-colors hover:text-eddie-bright"
             >
               WhatsApp
+            </a>
+            <a
+              href={IFOOD_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm font-semibold text-steel transition-colors hover:text-ifood-bright"
+            >
+              iFood
             </a>
             <a
               href={INSTAGRAM_URL}

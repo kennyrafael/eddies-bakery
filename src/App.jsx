@@ -5,7 +5,7 @@ import HowToOrder from './components/HowToOrder'
 import Testimonials from './components/Testimonials'
 import InstagramCTA from './components/InstagramCTA'
 import Footer from './components/Footer'
-import FloatingWhatsApp from './components/FloatingWhatsApp'
+import FloatingOrderButtons from './components/FloatingOrderButtons'
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
       <Testimonials />
       <InstagramCTA />
       <Footer />
-      <FloatingWhatsApp />
+      <FloatingOrderButtons />
     </div>
   )
 }

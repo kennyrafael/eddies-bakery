@@ -51,11 +51,11 @@ export default function Testimonials() {
             headerVisible ? 'translate-y-0 opacity-100' : 'translate-y-6 opacity-0'
           }`}
         >
-          <span className="font-display text-sm font-semibold tracking-wide text-blood-light">
+          <span className="kicker text-blood-light">
             Quem já provou
           </span>
           <h2 className="mt-3 text-3xl font-bold text-steel-light sm:text-4xl">
-            Não é só a gente que fala
+            Não é só a <span className="text-gradient-blood">gente que fala</span>
           </h2>
         </div>
 

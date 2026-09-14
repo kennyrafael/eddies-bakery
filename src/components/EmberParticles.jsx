@@ -15,7 +15,7 @@ export default function EmberParticles({ density = 28, className = '' }) {
     const ctx = canvas.getContext('2d')
     let width, height, particles, animationId
 
-    const colors = ['#E08A2C', '#F5A623', '#C4302F']
+    const colors = ['#E08A2C', '#F5A623', '#C4302F', '#B24BF3']
 
     function resize() {
       width = canvas.width = canvas.offsetWidth

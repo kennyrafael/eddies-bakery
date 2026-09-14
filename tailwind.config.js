@@ -27,9 +27,18 @@ export default {
           DEFAULT: '#4A7C3F',
           bright: '#6BA858',
         },
+        spark: {
+          DEFAULT: '#B24BF3',
+          bright: '#D17FFF',
+        },
+        ifood: {
+          DEFAULT: '#EA1D2C',
+          bright: '#FF4B4B',
+        },
       },
       fontFamily: {
-        display: ['Cinzel', 'serif'],
+        display: ['Anton', 'sans-serif'],
+        accent: ['Oswald', 'sans-serif'],
         body: ['Work Sans', 'sans-serif'],
       },
       keyframes: {
